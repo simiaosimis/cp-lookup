@@ -1,3 +1,18 @@
 // Place all the styles related to the uri-query controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#profile-bar{
+	float: left;
+}
+
+.questions {
+	float: right;
+}
+
+.impar {
+	background: red;
+}
+
+.question:nth-child(even) {background: #CCC}
+.question:nth-child(odd) {background: #FFF}

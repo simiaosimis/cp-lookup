@@ -1,7 +1,10 @@
-<h1> ola </h1>
-<%=raw @author%>
-<%@questoes.each do |q|%>
-<div>
-	<%=raw q%>
+<div id="content">
+	<%=raw @author%>
+	<div class="questions">
+		<%@questions.each_with_index do |q, i|%>
+		<div class="question">
+			<%=raw q%>
+		</div>
+		<%end%>
+	</div>
 </div>
-<%end%>
